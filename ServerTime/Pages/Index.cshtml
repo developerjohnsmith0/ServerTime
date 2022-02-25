@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<body>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2> The current time is  @ViewData["CurrentTime"]</h2>
+    @{ var myMessage = "This is the text of my choosing"; } 
+    <h2> @myMessage</h2>
+</div>
+</body>
